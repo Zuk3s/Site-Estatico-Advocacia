@@ -36,10 +36,6 @@ ul {
 }
 */
 
-.texto {
-    font-family: 'PT Sans', sans-serif;
-}
-
 .col-100 {
     width: 100%;
     position: relative;
@@ -49,6 +45,7 @@ ul {
 .cabeçalho-principal {
     background-color: #800814;
     width: 100%;
+    height: 80px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -61,34 +58,39 @@ ul {
 
 .logo img {
     position: relative;
-    width: 52px;
-    top: 5px;
+    width: 80px;
+    top: 4px
 }
 
 .rede-sociais {
     float: right;
-    padding-top: 16px;
-    padding-bottom: 10px;
+    position: relative;
+    top: 20px;
 }
 
 .rede-sociais a {
     display: inline-block;
-    margin-left: 13px;
+    margin-left: 25px;
+}
+
+.rede-sociais a img {
+    width: 35px;
 }
 
 .menu {
-    text-align-last: center;
-    padding: 20px 0px;
+    text-align: center;
+    height: 70px;
 }
 
 .menu a {
+    position: relative;
+    top: 36%;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 12px;
-    margin: 10px;
+    padding: 15px;
     font-size: 1em;
-    transition: 0.4s;
+    transition: 0.3s;
     border-radius: 10px;
 }
 
@@ -97,6 +99,7 @@ ul {
     background-color: #800814;
     filter: drop-shadow(5px 8px 7px #000);
 }
+
 .imagem-principal img {
     width: 100%;
     position: relative;
@@ -177,28 +180,38 @@ ul {
     background-color: rgb(239, 239, 239);
 }
 
-.texto-contatos img {
-    width: 28px;
-    position: absolute;
-}
 
-.texto-contatos section p {
-    margin-left: 30px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 1.25em;
-    position: relative;
+.texto-contatos {
+    display: inline-block;
+    width: 65%;
+    padding: 23px;
 }
 
 .texto-contatos section {
-    padding: 15px;
+    padding: 5px;
+    width: 100%;
 }
 
-.contatos-locais {
+.texto-contatos section img {
+    width: 40px;
     position: absolute;
-    bottom: 11.80%;
-    left: 80%;
+    left: -20px;
+}
+
+.texto-contatos section p {
+    font-size: 1.25em;
+}
+
+
+
+.contatos-locais {
+    display: inline-block;
+    position: relative;
+    width: 25%;
     font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    float: right center;
+
 }
 
 .contatos-locais section {
@@ -208,7 +221,7 @@ ul {
 
 .contatos-locais section img {
     position: relative;
-    top: 10px
+    top: 10px;
 }
 
 .contatos-locais section a {
@@ -224,4 +237,8 @@ ul {
 .rodape section {
     text-align: center;
     padding: 15px;
+}
+
+.texto {
+    font-family: 'PT Sans', sans-serif;
 }
