@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+:root {
+    --vermelho: #800814;
+    --branco: #fff;
+    --cinza: rgb(239, 239, 239);
+    --fonte: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.bg-vermelho {
+    background-color: var(--vermelho);
+}
+
+.bg-cinza {
+    background-color: var(--cinza);
+}
+
+.fonte {
+    font-family: var(--fonte);
+}
+
+.grifado {
+    background-color: var(--vermelho);
+    border-radius: 25px 10px;
+    color: var(--branco);
+    padding: 0px 15px;
+    filter: drop-shadow(5px 8px 7px #000);
+}
+
+.accordion-not-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    text-align: left;
+    color: #212529;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    font-weight: normal;
+    line-height: inherit;
+}
+
+.circular-image {
+    width: 300px;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 8px #000);
+}
+
+.border-y {
+    border-bottom: 2px solid var(--vermelho);
+    border-top: 2px solid var(--vermelho);
+}
